@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vtourister</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 30px;
+            }
+            blockquote{
+                text-align: right;
+                font-family: fantasy;
+            }
+            video{
+                z-index: -2;
+                position: fixed;
+                right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+            }
+            h1{
+                text-align: center;
+                font-size: 100px;
+                font-family: cursive;
+            }
+            #a:link, #a:visited {
+                border: 1px solid black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px;
+}
+
+#a:hover, #a:active {
+  background-color: rgb(106, 186, 183);
+}
+#b:link, #b:visited {
+                border: 1px solid black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#b:hover, #b:active {
+  background-color: #6abab7;
+}
+@media (min-aspect-ratio: 16/9) {
+    #mainvid{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #mainvid{
+        width: auto;
+        height: 100%;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <video id="mainvid" autoplay="autoplay" loop muted>
+                <source src="Pexels Videos 1739010.mp4" type="video/mp4"></video>
+            <h1>Vtourister</h1>
+            <blockquote><a target="blank" href="dev.html">-By Vansh Mohan</a></blockquote>
+        </nav><br><br><br><br><br><br>
+        <center>
+        <a id="a" href="hotel.html">Hotels</a><a id="b" href="place.html">Tourist Places</a>
+        </center>
+    </body>
+</html>
